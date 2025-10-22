@@ -2,7 +2,7 @@
 import { useLocation } from 'react-router-dom';
 
 import { useCallback } from 'react';
-import { REMOVE_COMPLETED } from '../contansts';
+import { REMOVE_COMPLETED } from '../constants';
 
 
 

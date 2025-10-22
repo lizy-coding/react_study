@@ -1,7 +1,7 @@
 import { useCallback } from "react";
-import { ADD_ITEM } from "../actions";
+import { ADD_ITEM } from "../constants";
 
-export default function Header({ dispatch }) {
+export default  function Header({ dispatch }) {
   const addItem = useCallback(
     (title) => dispatch({ type: ADD_ITEM, payload: { title } }),
     [dispatch]

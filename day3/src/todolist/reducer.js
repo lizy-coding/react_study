@@ -1,4 +1,4 @@
-import { ADD_ITEM, REMOVE_COMPLETED } from "./contansts";
+import { ADD_ITEM, REMOVE_COMPLETED } from "./constants";
 /* Borrowed from https://github.com/ai/nanoid/blob/3.0.2/non-secure/index.js
  */
 
@@ -27,6 +27,4 @@ export const todoReducer = (state, action) => {
     default:
       return state;
   }
-
-  throw Error(`Unknown action: ${action.type}`);
 };
